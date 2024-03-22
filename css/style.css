@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+  font-size: 62.5% rem;
+  margin: 0;
+  padding: 0;
+}
+* body {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+* body header {
+  width: 100%;
+  height: 140px;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+}
+* body header .header-icons-container {
+  width: 100%;
+  height: 50px;
+  display: grid;
+  background-color: #b447fc;
+}
+* body header .header-icons-container .icons {
+  width: 300px;
+  height: auto;
+  display: flex;
+  justify-items: flex-end;
+  align-items: center;
+  justify-content: space-between;
+  justify-self: end;
+  margin-right: 50px;
+}
+* body header .header-icons-container .icons a {
+  text-decoration: none;
+  display: inline;
+  color: black;
+}
+* body header .header-icons-container .icons a span {
+  color: white;
+}
+* body header nav {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  height: 1000px;
+  background-image: url("../assets/img/Cover.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+* body header nav .nav-logo-container {
+  margin-left: 50px;
+}
+* body header nav .nav-logo-container a {
+  text-decoration: none;
+  display: inline;
+  color: black;
+  display: flex;
+}
+* body header nav .nav-logo-container a .gift {
+  margin-top: 10px;
+}
+* body header nav .nav-logo-container a h1 {
+  padding-left: 15px;
+  font-size: 2rem;
+  color: #b447fc;
+  align-self: center;
+}
+* body header nav .profile-link {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 50px;
+}
+* body header nav .profile-link a {
+  font-size: 1.5rem;
+  margin-top: 20px;
+  text-decoration: none;
+  display: inline;
+  color: #b447fc;
+  border-bottom: 1px solid #b447fc;
+  align-self: self-start;
+}
+* body main {
+  text-align: center;
+}
+* body main h1 {
+  color: white;
+  font-size: 4rem;
+}
+* body main button {
+  margin-top: 30px;
+  background: #b447fc;
+  font-size: 2rem;
+  color: white;
+  padding: 10px;
+  border-radius: 15px;
+  border: 4px tr;
+  background-image: linear-gradient(to bottom, #b447fc, #2079b0);
+  border-radius: 24px;
+  text-shadow: 3px 2px 1px #9daef5;
+  box-shadow: 6px 5px 24px #666666;
+  font-family: Arial;
+  color: #fafafa;
+  font-size: 27px;
+  padding: 19px;
+  text-decoration: none;
+}
+* body main button a {
+  color: white;
+  text-decoration: none;
+}
+* body main button:hover {
+  background: #2079b0;
+  background-image: linear-gradient(to bottom, #2079b0, #b447fc);
+  text-decoration: none;
+}/*# sourceMappingURL=style.css.map */
